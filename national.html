@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>National FBLA — FBLA River Valley High School</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700;9..144,900&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="progress" id="progressBar"></div>
+
+<nav class="site-nav" id="siteNav">
+  <a href="index.html" class="brand">
+    <div class="brand-logos">
+      <img src="images/logo_rvhs.png" alt="River Valley Falcons logo">
+      <div class="div-dot"></div>
+      <img src="images/logo_fbla.png" alt="FBLA official logo">
+    </div>
+    <div class="brand-text">
+      <span class="b1">FBLA</span>
+      <span class="b2">River Valley HS</span>
+    </div>
+  </a>
+  <div class="nav-toggle" id="navToggle"><span></span><span></span><span></span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html" class="nav-link">Home</a></li>
+    <li><a href="about.html" class="nav-link">About Us</a></li>
+    <li><a href="events.html" class="nav-link">Events</a></li>
+    <li><a href="national.html" class="nav-link">National FBLA</a></li>
+    <li><a href="why-join.html" class="nav-link">Why Join</a></li>
+    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+    <li><a href="leadership.html" class="nav-link">Leadership Archive</a></li>
+    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="eyebrow">The Bigger Picture</div>
+    <h1>FBLA at the National Level</h1>
+    <p>Our chapter is one local link in an organization that spans the country.</p>
+  </div>
+</section>
+
+<section class="gallery-section section-pad">
+  <div class="about-grid fx" style="align-items:flex-start;">
+    <div class="about-copy">
+      <p style="color:rgba(255,255,255,.82);">Future Business Leaders of America began as an idea in 1937, when Columbia University professor Hamden L. Forkner proposed uniting the country's scattered high school business clubs into a single national organization. The first chapter was chartered in Johnson City, Tennessee, in 1942, and the organization has grown into the <strong style="color:#fff;">largest career and technical student organization of its kind</strong>, with members across thousands of chartered chapters nationwide today.</p>
+      <p style="color:rgba(255,255,255,.82);">FBLA's stated mission is to inspire and prepare students to become community-minded business leaders in a global society through relevant career preparation and leadership experience. Nationally, the organization runs on three levels of competition — <strong style="color:#fff;">local chapter</strong>, then <strong style="color:#fff;">state leadership conferences</strong> like the one our delegates attend, and finally the <strong style="color:#fff;">National Leadership Conference</strong>, where top state qualifiers compete each summer in a different host city.</p>
+      <p style="color:rgba(255,255,255,.82);">Beyond competitive events, FBLA members nationwide take part in the Business Achievement Awards program, build career portfolios, apply for FBLA-exclusive scholarships, and support March of Dimes as the organization's national community service partner.</p>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:16px;">
+      <div class="badge" style="background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.14);">
+        <div class="role" style="color:var(--gold-soft);">Founded</div>
+        <div class="pname" style="color:#fff;">1937 · Chartered 1942</div>
+      </div>
+      <div class="badge" style="background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.14);">
+        <div class="role" style="color:var(--gold-soft);">Conference Levels</div>
+        <div class="pname" style="color:#fff;">Chapter → State → National</div>
+      </div>
+      <div class="badge" style="background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.14);">
+        <div class="role" style="color:var(--gold-soft);">National Service Partner</div>
+        <div class="pname" style="color:#fff;">March of Dimes</div>
+      </div>
+      <div class="badge" style="background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.14);">
+        <div class="role" style="color:var(--gold-soft);">Headquarters</div>
+        <div class="pname" style="color:#fff;">Reston, Virginia</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" id="contact">
+  <div class="footer-top">
+    <div>
+      <h3 class="footer-title">Ready to lead with <span class="accent">us?</span></h3>
+      <p>For any questions, please don't hesitate to reach out to our advisor, Mr. Talstyka, in Room 811.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="mailto:dtalstyka@ycusd.org">dtalstyka@ycusd.org</a>
+      <p>Room 811 · River Valley HS</p>
+    </div>
+    <div class="footer-col">
+      <h4>Follow the Chapter</h4>
+      <a class="ig" href="https://www.instagram.com/fbla.rvhs/" target="_blank" rel="noopener">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"/></svg>
+        @fbla.rvhs
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> FBLA River Valley High School Chapter</span>
+    <span>Yuba City, California (Northern Section)</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
